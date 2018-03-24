@@ -1,9 +1,4 @@
-#!/usr/bin/python3
-
-class Helper(object):
-    def __init__(self):
-        pass
-    
+class Helper(object):    
     def getParamFromValue(self, value):
         for var in vars(self).keys():
             if not callable(getattr(self, var)):
@@ -271,7 +266,7 @@ class ControlArea(Helper):
         super()
         self.DE_50HERTZ = '10YDE-VE-------2'
         self.ALB = '10YAL-KESH-----5'
-        self.DE_AMP = '10YDE-RWENET---I'
+        self.DE_AMPRION = '10YDE-RWENET---I'
         self.AT = '10YAT-APG------L'
         self.BY = '10Y1001A1001A51S'
         self.BE = '10YBE----------2'

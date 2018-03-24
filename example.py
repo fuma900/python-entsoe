@@ -1,6 +1,6 @@
-from entsoe.query import Query, LoadDomain, TransmissionDomain
-from entsoe.params import BIDDING_ZONE, PARAMS, CONTRACT_MARKET_AGREEMENT_TYPE, MARKET_BALANCE_AREA, CONTROL_AREA, AUCTION_TYPE
 from datetime import datetime
+from entsoe.query import LoadDomain, TransmissionDomain
+from entsoe.params import AUCTION_TYPE, BIDDING_ZONE, CONTRACT_MARKET_AGREEMENT_TYPE, CONTROL_AREA, MARKET_BALANCE_AREA
 
 loadDomain = LoadDomain()
 timeInterval = (
